@@ -8,7 +8,9 @@ int main()
 	//IOStreamCode();
 	//DataTypeCode();
 
-	AccessModifersCode();
+	//AccessModifersCode();
+
+	TypeCastingCode();
 
 }
 
