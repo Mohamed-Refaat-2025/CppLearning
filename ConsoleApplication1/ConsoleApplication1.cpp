@@ -1,8 +1,15 @@
-#include <iostream>
+﻿#include <iostream>
+#include <sstream>
+#include "ConsoleApplication1.h"
 using namespace std;
 int main()
 {
-    cout << "Hello World!" << endl;
-    cout << "Hello World!" << endl;
+	//Istraem object
+	//IOStreamCode();
+
+
 }
+
+
+
 
