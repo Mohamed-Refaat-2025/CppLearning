@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 void IOStreamCode()
 {
@@ -56,6 +57,33 @@ void DataTypeCode()
 	char a = 'A';
 	cout << "The Char value :" << a << endl;
 	cout << "The AscII value for 'B' :" << int('B') << endl;
+
+
+}
+
+void AccessModifersCode()
+{
+	short int number = 2;
+	cout << number << endl;
+	cout << sizeof(number) << endl;
+	long long int long_number = 33232788988999;
+	cout << long_number << endl;
+	cout << sizeof(long_number) << endl;
+	// Use an aliase 
+	//using bignum = long long int;
+
+	//bignum newAliase = 2566677888;
+	//cout << newAliase << endl;
+	//cout << sizeof(newAliase) << endl;
+
+	typedef long long int LL;
+
+	LL newLL = 22222222222;
+
+	cout << newLL << endl;
+	cout << sizeof(newLL) << endl;
+
+
 
 
 }

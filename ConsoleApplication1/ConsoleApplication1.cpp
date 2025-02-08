@@ -8,6 +8,8 @@ int main()
 	//IOStreamCode();
 	//DataTypeCode();
 
+	AccessModifersCode();
+
 }
 
 
