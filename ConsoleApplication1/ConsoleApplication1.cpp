@@ -6,7 +6,7 @@ int main()
 {
 	//Istraem object
 	//IOStreamCode();
-
+	//DataTypeCode();
 
 }
 
