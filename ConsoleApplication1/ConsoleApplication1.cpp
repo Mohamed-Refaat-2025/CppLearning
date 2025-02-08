@@ -10,8 +10,8 @@ int main()
 
 	//AccessModifersCode();
 
-	TypeCastingCode();
-
+	//TypeCastingCode();
+	//ArithmaticOperatorsCode();
 }
 
 

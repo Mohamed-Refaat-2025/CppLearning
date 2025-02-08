@@ -1,4 +1,5 @@
 #include <iostream>
+#include <typeinfo>
 
 using namespace std;
 void IOStreamCode()
@@ -107,15 +108,35 @@ void TypeCastingCode()
 	//int result = e + f;
 	cout << e + (int)f << endl; //40
 	cout << sizeof(e+(int)f) << endl; // 4 Bytes
-	cout << "=======================================================" << endl;
-	cout << "=======================================================" << endl;
-	cout << "=======================================================" << endl;
-	cout << "=======================================================" << endl;
-	cout << "=======================================================" << endl;
-	cout << "=======================================================" << endl;
-	cout << "=======================================================" << endl;
-	cout << "=======================================================" << endl;
-	cout << "=======================================================" << endl;
-	cout << "=======================================================" << endl;
-	cout << "=======================================================" << endl;
+}
+
+void ArithmaticOperatorsCode()
+{
+	cout << " Enter your number to check even or odd" << endl;
+	int num;
+	cin >> num;
+	if (num == 0)
+	{
+		cout << "This number is ODD" << endl;
+	}
+	if (num != 0 && num % 2 == 0)
+	{
+		cout << "This number is EVEN" << endl;
+	}
+	else if(num != 0 && num % 2 != 0)
+	{
+		cout << "This number is ODD" << endl;
+
+	}
+	string tryAgain = "No";
+	cout << "Try Again Yes or No" << endl;
+	cin >> tryAgain;
+	if (tryAgain == "Yes")
+	{
+		ArithmaticOperatorsCode();
+	}
+	else
+	{
+		return;
+	}
 }
